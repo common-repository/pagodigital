@@ -1,0 +1,41 @@
+.pd-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 2.8rem;
+  background: #f1f1f1;
+}
+
+.pd-images-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pd-payment-methods-footer-styles {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 769px) {
+  .pd-footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pd-footer-container img {
+    object-fit: contain;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 426px) {
+  .pd-images-footer {
+    justify-content: center;
+  }
+
+  .pd-payment-methods-footer-styles {
+    margin: 10px;
+  }
+}

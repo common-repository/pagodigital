@@ -1,0 +1,14 @@
+.pd-block-radio {
+  margin-bottom: 10px;
+}
+
+.pd-block-radio label {
+  font-size: 13px !important;
+}
+
+.pd-payment-methods-styles {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
